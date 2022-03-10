@@ -78,6 +78,10 @@
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
 
-  @media screen and (max-width : 1301px) {
-  
+  @media screen and (max-width : 800px) {
+
+    .card{
+      width: 70%;
+    }
+
   }
