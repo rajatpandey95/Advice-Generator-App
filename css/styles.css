@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  html,body{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(218, 23%, 16%);
+    cursor:context-menu;
+  }
+  .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card{
+    height: 44%;
+    width: 37%;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 5%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .id{
+    margin: 20px 0px 10px 0px;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #content{
+    height: 75%;
+    margin: 0px 0px 10px 0px;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: hsl(193, 38%, 86%);
+  }
+
+  svg{
+    height: 10%;
+  }
+  
+  #button{
+    height:13vh;
+    width: 9vh;
+    border-radius: 100%;
+    position: relative;
+    top: 40px;
+    background-color: hsl(150, 100%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #button:hover{
+    box-shadow: 2px 2px 30px hsl(150, 100%, 71%);
+    cursor:pointer;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  @media screen and (max-width:700px) {
+      
+  }
